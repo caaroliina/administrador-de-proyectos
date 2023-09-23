@@ -1,14 +1,7 @@
 import edit from "../../assets/svg/edit-box-line.svg";
 import del from "../../assets/svg/delete-bin-7-line.svg"
-const DropdownMenu = () => {
+const DropdownMenu = ({ id, handleDelete, handleEdit }) => {
 
-  const handleEdit = () => {
-
-  };
-
-  const handleDelete = () => {
-
-  };
 
   return (
     <div className="bg-tableheader rounded shadow">
